@@ -1,0 +1,10 @@
+packages: [
+  "activate-power-mode"
+  "git-log"
+  "git-plus"
+  "git-time-machine"
+  "minimap"
+  "nyancat"
+  "package-sync"
+  "pigments"
+]
