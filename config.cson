@@ -1,0 +1,10 @@
+"*":
+  core:
+    autoHideMenuBar: true
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "58605924-3dc8-5476-9fb3-a826d043fd0c"
+  minimap: {}
+  welcome:
+    showOnStartup: false

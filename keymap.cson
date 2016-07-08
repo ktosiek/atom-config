@@ -1,0 +1,15 @@
+'body':
+  'ctrl-n': 'core:move-down'
+  'alt-n': 'application:new-file'
+  'alt-<': 'core:move-to-top'
+  'alt->': 'core:move-to-bottom'
+'.platform-win32, .platform-linux':
+  'ctrl-p': 'core:move-up'
+  'alt-p': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-f': 'core:move-right'
+  'cmd-f': 'find-and-replace:show'
+  'ctrl-b': 'core:move-left'
+  'cmd-b': 'fuzzy-finder:toggle-buffer-finder'
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'cmd-e': 'find-and-replace:use-selection-as-find-pattern'
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
