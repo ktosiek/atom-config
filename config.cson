@@ -1,10 +1,43 @@
 "*":
   core:
     autoHideMenuBar: true
+    disabledPackages: [
+      "tabs"
+      "activate-power-mode"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
   editor:
+    fontSize: 13
+    invisibles: {}
     showIndentGuide: true
   "exception-reporting":
     userId: "58605924-3dc8-5476-9fb3-a826d043fd0c"
-  minimap: {}
+  "git-plus":
+    verboseCommits: true
+  minimap:
+    absoluteMode: true
+  pigments:
+    ignoredNames: [
+      "vendor/*"
+      "node_modules/*"
+      "spec/*"
+      "test/*"
+      "*.log"
+    ]
+  "regex-railroad-diagram": {}
+  tabs:
+    enableVcsColoring: true
+  "terminal-plus":
+    core: {}
+    style:
+      animationSpeed: 5
+      theme: "dracula"
+    toggles:
+      autoClose: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
+  "yuno-commit": {}
